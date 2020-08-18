@@ -1,0 +1,63 @@
+.header 
+	background-color: #ffffff
+	height: 80px
+	margin: 0 215px
+	display: flex
+	align-items: center
+
+	&__logo
+		margin: 0 93px 0 0
+		font-family: Raleway
+		font-weight: 700
+		font-size: 26px
+		line-height: 31px
+		letter-spacing: 0.03em
+		color: $main-text-color
+		text-decoration: none
+		span
+			color: $hover-color
+	&__links
+		display: flex
+		align-items: center
+		&-link 
+			display: flex
+			list-style-type: none
+			li
+				position: relative
+				margin-right: 50px
+			li:nth-child(3)
+				margin-right: 331px
+			a
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 16px;
+				letter-spacing: 0.02em;	
+				color: $main-text-color
+				text-decoration: none
+			a:hover,
+			a:focus
+				color: $hover-color
+
+		&-contact
+			list-style-type: none
+			display: flex
+			&__element
+				position: relative
+				margin-right: 50px
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 18px;
+				letter-spacing: 0.02em;
+				color: $second-text-color
+				text-decoration: none
+				&:hover,
+				&:focus
+					color: $hover-color
+				&:nth-child(2)
+					margin-right: 0
+					
+
+
+
+
+	
